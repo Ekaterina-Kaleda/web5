@@ -1,0 +1,242 @@
+.kr1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+
+    &__stage1 {
+        display: flex;
+        flex-direction: row;
+        gap: 24px;
+    }
+    &__row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    &__block {
+        width: Fill (612px);
+        height: Hug (256px);
+        padding: 24px;
+        border-radius: 24px;
+        gap: 16px;
+
+        background-color: #F8F9FB;
+    }
+    &__head {
+        display: flex;
+        flex-direction: column;
+    }
+    &__stol {
+        /* Стол 1 - R7326 */
+
+        width: 167px;
+        height: 32px;
+
+        font-family: 'Onest';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 32px;
+        /* identical to box height, or 133% */
+
+        color: #2C3640;
+
+
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+
+    }
+    &__arbitr {
+        /* Арбитр: Найдан Монгуш */
+
+        width: 188px;
+        height: 22px;
+
+        font-family: 'Onest';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        /* identical to box height, or 138% */
+
+        color: #2C3640;
+
+
+        /* Inside auto layout */
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+
+    }
+    &__conflict {
+        /* Конфликты */
+
+        width: 85px;
+        height: 24px;
+
+        font-family: 'Onest';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height, or 150% */
+
+        color: #959B9F;
+
+
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+
+    }
+    &__num {
+        /* 3:3 */
+
+        width: 85px;
+        height: 32px;
+
+        font-family: 'Onest';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 32px;
+        /* identical to box height, or 133% */
+        text-align: right;
+
+        color: #2C3640;
+
+
+        /* Inside auto layout */
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+
+    }
+    &__big-block {
+        /* Frame 9906 */
+
+        /* Auto layout */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 16px;
+        gap: 4px;
+
+        width: 564px;
+        height: 80px;
+
+        background: #FFFFFF;
+        border-radius: 8px;
+
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+
+    }
+    &__content {
+        /* Frame 1321315226 */
+
+        /* Auto layout */
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 8px;
+
+        width: 564px;
+        height: 136px;
+
+
+        /* Inside auto layout */
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+    &__text {
+        /* Человек заходит в автобус и... Человек заходит в автобус... */
+
+        width: 532px;
+        height: 24px;
+
+        font-family: 'Onest';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height, or 150% */
+
+        color: #2C3640;
+
+
+        /* Inside auto layout */
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+
+    }
+    &__case-text {
+        
+        width: Fill (564px);
+        height: Hug (80px);
+        padding: 16px;
+        border-radius: 8px;
+        gap: 4px;
+
+        background-color: white;
+    }
+    &__case {
+        /* Кейс №2 */
+
+        width: 69px;
+        height: 20px;
+
+        font-family: 'Onest';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        /* identical to box height, or 125% */
+
+        color: #2C3640;
+
+
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+
+    }
+    &__name {
+        /* Константинопольский Константин */
+
+        width: 484px;
+        height: 22px;
+
+        font-family: 'Onest';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    &__profile {
+        display: flex;
+        flex-direction: row;
+
+        width: Fill (532px);
+        height: Hug (32px);
+        gap: 16px;
+
+        background: white;
+    }
+}

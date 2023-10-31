@@ -1,0 +1,82 @@
+.services {
+    background-color: $black_main;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+    height: 768px; 
+    &__promo {
+        color: #FFF;
+        font-family: Raleway;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 64px; /* 133.333% */
+        letter-spacing: -0.96px; 
+    }
+    &__block {
+        display: flex;
+        width: 1160px;
+        align-items: flex-start;
+        gap: 28px; 
+        margin-top: 106px;
+    }
+    &__mini-block {
+        display: flex;
+        padding: 40px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+        flex: 1 0 0; 
+
+        border-radius: 16px;
+        background: #FFF; 
+    }
+    &__num {
+        align-self: stretch;
+        color: $black_main;
+        font-variant-numeric: lining-nums proportional-nums;
+        font-family: Raleway;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px; /* 200% */
+        opacity: 0.5;
+    }
+    &__logo {
+        align-self: stretch;
+        color: $black_main;
+        font-family: Raleway;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px; /* 120% */
+    }
+    &__text {
+        align-self: stretch;
+        color: $black_main;
+        font-family: Raleway;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 150% */
+    }
+    &__line {
+        width: 80px;
+        height: 1px;
+        opacity: 0.2;
+        background: $black_main;
+        margin-top: 56px;
+        margin-bottom: 56px;
+    }
+    &__price {
+        color: $black_main;
+        font-variant-numeric: lining-nums proportional-nums;
+        font-family: Raleway;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px; /* 100% */
+    }
+}
