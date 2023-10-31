@@ -1,0 +1,26 @@
+@import './identic/colors';
+@import './identic/typography';
+@import './blocks/btn';
+@import './blocks/promo';
+@import './blocks/header';
+@import './blocks/photo';
+@import './blocks/about-me';
+@import './blocks/services';
+@import './blocks/kr1';
+
+* {
+    margin: 0;
+    border: none;
+    padding: 0;
+    box-sizing: border-box;
+    color: #000;
+    font-family: Raleway, sans-serif;
+}
+.container {
+    width: 1160px;
+    margin: 0 auto;
+    &__header {
+        color: #fff;
+    }
+}
+
